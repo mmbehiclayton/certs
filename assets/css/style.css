@@ -1,0 +1,111 @@
+/* -----------------------------------
+   KISUMU NATIONAL POLYTECHNIC THEME
+----------------------------------- */
+
+:root {
+  --knp-blue: #002147;
+  --knp-gold: #E1A500;
+  --knp-light: #f8f9fa;
+  --knp-dark: #1c1c1c;
+  --knp-font: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--knp-font);
+  background-color: var(--knp-light);
+  margin: 0;
+  color: var(--knp-dark);
+}
+
+/* Header / Navbar */
+.navbar {
+  background-color: var(--knp-blue);
+  padding: 0.75rem 1.25rem;
+}
+.navbar-brand {
+  color: var(--knp-gold);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.navbar a:hover {
+  color: var(--knp-gold);
+}
+
+/* Main content wrapper */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--knp-blue);
+  border-color: var(--knp-blue);
+}
+.btn-primary:hover {
+  background-color: var(--knp-gold);
+  border-color: var(--knp-gold);
+  color: var(--knp-dark);
+}
+
+/* Cards and panels */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border: none;
+  margin-bottom: 20px;
+}
+.card-header {
+  background-color: var(--knp-blue);
+  color: white;
+  font-weight: 500;
+}
+.card-body {
+  background-color: white;
+}
+
+/* Footer */
+footer {
+  background-color: var(--knp-blue);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* Links */
+a {
+  color: var(--knp-blue);
+}
+a:hover {
+  color: var(--knp-gold);
+}
+
+/* Tables */
+.table thead {
+  background-color: var(--knp-blue);
+  color: white;
+}
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Login Page */
+.login-box {
+  width: 360px;
+  margin: 5% auto;
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.login-box h2 {
+  text-align: center;
+  color: var(--knp-blue);
+}
